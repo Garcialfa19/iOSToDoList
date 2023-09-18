@@ -33,6 +33,8 @@
 		E42C29CD2AB7E47E00E79225 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C29CC2AB7E47E00E79225 /* LoginViewViewModel.swift */; };
 		E42C29CF2AB7E48500E79225 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C29CE2AB7E48500E79225 /* RegisterViewViewModel.swift */; };
 		E42C29D12AB7E49100E79225 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C29D02AB7E49100E79225 /* ToDoListItemViewViewModel.swift */; };
+		E42C29D32AB7ECE300E79225 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C29D22AB7ECE300E79225 /* HeaderView.swift */; };
+		E42C29D52AB7FEB200E79225 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C29D42AB7FEB200E79225 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		E42C29CC2AB7E47E00E79225 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		E42C29CE2AB7E48500E79225 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		E42C29D02AB7E49100E79225 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		E42C29D22AB7ECE300E79225 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E42C29D42AB7FEB200E79225 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				E42C29BA2AB7E3DF00E79225 /* LoginView.swift */,
 				E42C29BC2AB7E3E800E79225 /* RegisterView.swift */,
 				E42C29BE2AB7E3F600E79225 /* ToDoListItemView.swift */,
+				E42C29D22AB7ECE300E79225 /* HeaderView.swift */,
+				E42C29D42AB7FEB200E79225 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -353,11 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42C29BB2AB7E3DF00E79225 /* LoginView.swift in Sources */,
+				E42C29D32AB7ECE300E79225 /* HeaderView.swift in Sources */,
 				E42C29742AB7DED200E79225 /* MainView.swift in Sources */,
 				E42C29CF2AB7E48500E79225 /* RegisterViewViewModel.swift in Sources */,
 				E42C29C52AB7E44F00E79225 /* MainViewViewModel.swift in Sources */,
 				E42C29B52AB7E3BD00E79225 /* ProfileView.swift in Sources */,
 				E42C29BD2AB7E3E800E79225 /* RegisterView.swift in Sources */,
+				E42C29D52AB7FEB200E79225 /* TLButton.swift in Sources */,
 				E42C29C72AB7E45D00E79225 /* ProfileViewViewModel.swift in Sources */,
 				E42C29B72AB7E3C700E79225 /* ToDoListView.swift in Sources */,
 				E42C29C12AB7E40C00E79225 /* User.swift in Sources */,
