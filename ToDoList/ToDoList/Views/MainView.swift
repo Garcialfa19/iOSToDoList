@@ -23,6 +23,7 @@ struct MainView: View {
             ToDoListView(userId: viewModel.currentUserId)
                 .tabItem {
                     Label("Home", systemImage: "house")
+                        
                 }
             ProfileView()
                     .tabItem {
