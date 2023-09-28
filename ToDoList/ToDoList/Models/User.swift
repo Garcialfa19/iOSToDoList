@@ -7,6 +7,8 @@
 
 import Foundation
 
+// Here the user model is defined.
+
 struct User: Codable {
     let id: String
     let name: String

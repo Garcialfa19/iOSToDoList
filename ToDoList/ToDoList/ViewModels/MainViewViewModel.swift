@@ -8,7 +8,11 @@
 import FirebaseAuth
 import Foundation
 
+// View Model for the main view
+
 class MainViewViewModel: ObservableObject {
+    
+    // This stores the user that is currently signed in
     @Published var currentUserId: String = ""
     private var handler: AuthStateDidChangeListenerHandle?
     
@@ -21,6 +25,7 @@ class MainViewViewModel: ObservableObject {
         }
     }
     
+    // If ther is a user signed in, then it skips the login page
     public var isSignedIn: Bool {
         return Auth.auth().currentUser != nil
     }
